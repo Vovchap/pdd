@@ -1,0 +1,952 @@
+.odin{
+    background-attachment: fixed;
+    width: 100%;
+    height: 850px;
+    -webkit-background-size:cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    margin: 0%;
+}
+.forma{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+*
+.standart, .polulux, .lux{
+    margin: 10px;
+    height: 519px;
+    width: 340px;
+    outline: 2px solid #000;
+    border: 5px solid white;
+
+}
+.number{
+    max-width: 332px;
+}
+section{
+    margin-bottom: 20px;
+}
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+.texts{
+    color: black;
+    margin-bottom: 20px;
+} 
+.main_request{
+    display: flex;
+    flex-direction: row;
+}
+.request1, .request2{
+    width: 100%;
+}
+input.buttonius{
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 15px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #6c757d; 
+	border-radius: 5px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #6c757d;
+	background-color: #fff;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation; 
+}
+
+input.buttonius:focus {
+	box-shadow: 0 0 0 3px rgb(108 117 125 / 50%);
+}
+input.buttonius:hover {
+	color: #fff;
+	background-color: #6c757d;
+	border-color: #6c757d;
+}
+input.buttonius:active {
+	color: #fff;
+	background-color: #6c757d;
+	border-color: #6c757d;
+}
+.textss{
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+.request{
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    height: 400px;
+    width: 300px;
+    background-color: #A4A4A4;
+    border-radius: 25px;
+}
+.buttonius{
+    margin-top: 20px;
+    width: 80px;
+    height: 40px;
+}
+.logg{
+    font-size: 21px;
+    color: red;
+}
+.cart{
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    
+    width: 760px;
+    background-color: #898989;
+    border-radius: 25px;
+}
+.cartT{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: black;
+}
+.carts{
+    justify-content: left;
+    text-align: left;
+}
+.cartt{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    height: 686px;
+    width: 700px;
+    background-color: #898989;
+    border-radius: 25px;
+}
+.cartTT{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: black;
+}
+.FIO input{
+    width: 200px;
+    height: 30px;
+}
+.cartss{
+    margin-left: 20px;
+    justify-content: left;
+    text-align: left;
+}
+.button{
+     margin-left: 420px;
+     width: 100px;
+     height: 30px;
+}
+.button1{
+    margin-left: 0px;
+    width: 100%;
+    height: 30px;
+}
+.button2{
+    margin-left: 0px;
+    width: 70px;
+    height: 30px;
+}
+.sub{
+    text-align: center;
+    justify-content: center;
+}
+.dva{
+    background-attachment: fixed;
+    width: 100%;
+    background: 
+    url("images/2.png") center 
+    no-repeat;
+    height: 730px;
+    -webkit-background-size:cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tri{
+    background-attachment: fixed;
+    min-height: 900px;
+    width: 100%;
+    -webkit-background-size:cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Jhin{
+    background-attachment: fixed;
+    width: 100%;
+    background: 
+    url("images/4.jpg") center 
+    no-repeat;
+    height: 730px;
+    -webkit-background-size:cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    max-width: 1240px;
+    width: 100%;
+    height: 86px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    
+}
+.headerPlan{
+    font-size: 21px;
+    font-family: MontserratLight;
+    width: 100%;
+    max-width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.Menu{
+    width: 44px;
+    height: 32px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    pointer-events: none;
+}
+.MenuOpen1{
+    width: 41px;
+    height: 3px;
+    background-color: black;
+}
+.MenuOpen2{
+    width: 32px;
+    height: 3px;
+    background-color: black;
+}
+.MenuOpen3{
+    width: 41px;
+    height: 3px;
+    background-color: black;
+}
+.dropbtn {
+    background: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    pointer-events: auto;
+}
+.dal{
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+.dropbtn:hover, .dropbtn:focus {
+    outline: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+p{
+    color: black;
+}
+h2{
+    color: black;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 100%;
+    top: 30%;
+}
+.show {display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+.uslugi{
+    max-width: 1240px;
+    width: 100%;
+    height: 304px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.uslugi1{
+    max-width: 1240px;
+    width: 100%;
+    height: 304px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+.spravka{
+margin-left: -50px;
+}
+.standart1, .polulux1{
+    height: 200px;
+    width: 170px;
+    outline: 2px solid #000;
+    border: 5px solid white;
+        margin: 0px 50px;
+    margin-top: 20px;
+}
+.tradd{
+    text-decoration: none;
+}
+.forflex{
+    justify-content: space-between;
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+.forflex2{
+    margin-left: 40px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.porcha{
+    background-color: black;
+    width: 100%;
+    max-width: 280px;
+    height: 250px;
+    text-align: center;
+
+}
+.porchalogo{
+    width: 100%;
+    max-width: 280px;
+    height: 200px;
+}
+.porchatext{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 280px;
+    height: 50px;
+}
+.porchastyle{
+    font-size: 18px;
+    color: white;
+}
+.zagovor{
+    background-color: black;
+    width: 100%;
+    max-width: 280px;
+    height: 250px;
+    text-align: center;
+}
+.zagovorlogo{
+    width: 100%;
+    max-width: 280px;
+    height: 200px;
+}
+.zagovortext{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 280px;
+    height: 50px;
+}
+.zagovorstyle{
+    font-size: 18px;
+    color: white;
+}
+.sglaz{
+    width: 100%;
+    background-color: black;
+    max-width: 280px;
+    height: 250px;
+    text-align: center;
+}
+.sglazlogo{
+    width: 100%;
+    max-width: 280px;
+    height: 200px;
+}
+.sglaztext{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 280px;
+    height: 50px;
+}
+.sglazstyle{
+    font-size: 18px;
+    color: white;
+}
+.gadanie{
+    background-color: black;
+    width: 100%;
+    max-width: 280px;
+    height: 250px;
+    text-align: center;
+}
+.gadanielogo{
+    width: 100%;
+    max-width: 280px;
+    height: 200px;
+}
+.gadanietext{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 280px;
+    height: 50px;
+}
+.gadaniestyle{
+    font-size: 18px;
+    color: white;
+}
+.pervii{
+    width: 100%;
+    max-width: 250px;
+    height: 240px;
+}
+.vtoroi{
+    width: 100%;
+    max-width: 250px;
+    height: 240px;
+}
+.tretii{
+    width: 100%;
+    max-width: 250px;
+    height: 240px;
+}
+.chetvertii{
+    width: 100%;
+    max-width: 250px;
+    height: 240px;
+}
+.logo{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.logostyle{
+    font-size: 18px;
+    width: 100%;
+    height: 21px;
+}
+.callback{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 280px;
+    height: 37px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.callbackstyle{
+    color: white;
+}
+.logotip{
+    width: 100%;
+    max-width: 280px;
+    height: 65px;
+    border-radius: 15px;
+}
+
+.glavnayaopisanie{
+    background-color: black;
+    width: 100%;
+    max-width: 1240px;
+    height: 250px;
+    margin-top: -5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+.glavnayatext {
+    color: yellow;
+    width: 100%;
+    max-width: 1240px;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 210px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+.gg{
+    font-family: 'Times New Roman', Times, serif;
+}
+.conc{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.Opl{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.group{
+    width: 100%;
+    width: 920px;
+    height: 143px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.kontakti{
+    color: white;
+    width: 100%;
+    max-width: 280px;
+    height: 143px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.oplata{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 100%;
+    max-width: 280px;
+    height: 86px;
+
+}
+.sposobi{
+    width: 100%;
+    margin-top: 10px;
+    max-width: 265px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.visa{
+    width: 100%;
+    max-width: 70px;
+    height: 40px;
+}
+.kivi{
+    width: 100%;
+    max-width: 70px;
+    height: 40px;
+}
+.yandex{
+    width: 100%;
+    max-width: 70px;
+    height: 40px;
+}
+.call{
+    width: 100%;
+    max-width: 23px;
+    height: 22px;
+}
+.kons{
+    background-color: black;
+    width: 100%;
+    max-width: 360px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 81px;
+}
+.konstext{
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+    font-size: 17px;
+}
+.ind{
+    background-color: black;
+    width: 100%;
+    max-width: 440px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+}
+.indtext{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 17px;
+}
+.pot{
+    background-color: black;
+    width: 100%;
+    max-width: 550px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 33px;
+}
+.pottext{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.sell{
+    width: 100%;
+    margin-top: 30px;
+    max-width: 226px;
+    height: 100px;
+}
+.name{
+    width: 100%;
+    background-color: black;
+    max-width: 360px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    border-radius: 15px;
+}
+.nametext{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: yellow;
+}
+.opname{
+    background-color: black;
+    width: 100%;
+    max-width: 574px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
+    border-radius: 15px;
+}
+.subm{
+    margin-top: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: bottom;
+}
+.opnametext{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media(max-width: 1240px){
+.odin {
+    background-attachment: fixed;
+    width: 100%;
+    height: 852px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dva {
+    background-attachment: fixed;
+    width: 100%;
+    background: url(images/2.png) center no-repeat;
+    height: 1011px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tri{
+    background-attachment: fixed;
+    width: 100%;
+
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.Jhin{
+    height: 1011px;
+}
+.glavnayaopisanie {
+    margin-top: 35px;
+    max-width: 818px;
+    height: 637px;
+}
+.forflex {
+    width: 100%;
+    display: flex;
+    height: 380px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.forflex2 {
+    width: 100%;
+    display: flex;
+    height: 380px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 355px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.uslugi {
+    max-width: 818px;
+    height: 452px;
+}
+.porcha{
+    max-width: 185px;
+    height: 140px;
+}
+.porchalogo{
+    max-width: 185px;
+    height: 140px;
+}
+.porchatext{
+    margin-top: -4px;
+}
+.sglaz{
+    max-width: 185px;
+    height: 140px;
+}
+.sglazlogo{
+    max-width: 185px;
+    height: 140px;
+}
+.sglaztext{
+    margin-top: -4px;
+}
+.gadanie{
+    max-width: 185px;
+    height: 140px;
+}
+.gadanielogo{
+    max-width: 185px;
+    height: 140px;
+}
+.gadanietext{
+    margin-top: -4px;
+}
+.zagovor{
+    max-width: 185px;
+    height: 140px;
+}
+.zagovorlogo{
+    max-width: 185px;
+    height: 140px;
+}
+.zagovortext{
+    margin-top: -4px;
+}
+.glavnayaopisanie {
+    margin-top: 35px;
+    max-width: 818px;
+    height: 637px;
+}
+.glavnayatext{
+    font-size: 27px;
+}
+}
+
+@media(max-width:790px){
+    .odin{
+        height: 2000px;
+    }
+    .uslugi{    
+        max-width: 654px;
+        flex-direction: column;
+        align-items: center;
+        height: 1000px;
+    }
+    .forflex{
+        height: 500px;
+    }
+    .forflex2{
+        height: 500px;
+        margin-left: 0px;
+    }
+    .porcha{
+        flex-direction: column;
+        max-width: 280px;
+    height: 200px;
+    }
+    .porchalogo{
+        max-width: 280px;
+    height: 200px;
+    }
+    .porchatext{
+        margin-top: -4px;
+    }
+    .sglaz{
+        margin-top: 100px;
+        flex-direction: column;
+        max-width: 280px;
+    height: 200px;
+    }
+    .sglazlogo{
+        max-width: 280px;
+    height: 200px;
+    }
+    .sglaztext{
+        margin-top: -4px;
+    }
+    .gadanie{
+        margin-top: 100px;
+        flex-direction: column;
+        max-width: 280px;
+    height: 200px;
+    }
+    .gadanielogo{
+        max-width: 280px;
+    height: 200px;
+    }
+    .gadanietext{
+        margin-top: -4px;
+    }
+    .zagovor{
+        margin-top: 100px;
+        flex-direction: column;
+        max-width: 280px;
+    height: 200px;
+    }
+    .zagovorlogo{
+        max-width: 280px;
+    height: 200px;
+    }
+    .zagovortext{
+        margin-top: -4px;
+    }
+    .glavnayaopisanie{
+        margin-top: 200px;
+        max-width: 655px;
+        height: auto;
+    }
+    .glavnayatext{
+        height: auto;
+        font-size: 20px;
+    }
+    .sposobi{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .visa{
+        margin-top: 6px;
+    }
+    .kivi{
+        margin-top: 6px;
+    }
+    .yandex{
+        margin-top: 6px;
+    }  
+@media(max-width:790px){
+    .Jhin{
+        height: 1200px;
+    }
+}
+@media(max-width:420px){
+.odin{
+    height: 2200px;
+}
+
+.dva{
+    height: 900px;
+}
+.oplata{
+    margin-left: 50px;
+}
+.pot{
+height: auto;
+}
+}
+}
